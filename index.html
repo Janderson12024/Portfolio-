@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Systems Integration Portfolio | Elizabeth Neal Coaching</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .nav-button {
+            transition: all 0.3s ease;
+        }
+        .nav-button:hover {
+            transform: translateY(-2px);
+        }
+        .metric-card {
+            transition: all 0.3s ease;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100">
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-16 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex items-center gap-3 mb-4">
+                <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                </svg>
+                <div>
+                    <h1 class="text-4xl font-bold">Complete Business Systems Integration</h1>
+                    <p class="text-xl text-blue-200 mt-2">Elizabeth Neal Coaching LLC</p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-4 gap-4 mt-8">
+                <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                    <div class="text-3xl font-bold">13</div>
+                    <div class="text-sm text-blue-200">High-Priority Tasks Completed</div>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                    <div class="text-3xl font-bold">100%</div>
+                    <div class="text-sm text-blue-200">On-Time Delivery</div>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                    <div class="text-3xl font-bold">7</div>
+                    <div class="text-sm text-blue-200">Integrated Systems</div>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                    <div class="text-3xl font-bold">$0</div>
+                    <div class="text-sm text-blue-200">Additional Software Costs</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex overflow-x-auto gap-2 py-3">
+                <button onclick="showSection('overview')" class="nav-button px-4 py-2 rounded-lg whitespace-nowrap bg-blue-600 text-white" id="btn-overview">
+                    Executive Summary
+                </button>
+                <button onclick="showSection('challenge')" class="nav-button px-4 py-2 rounded-lg whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200" id="btn-challenge">
+                    The Challenge
+                </button>
+                <button onclick="showSection('approach')" class="nav-button px-4 py-2 rounded-lg whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200" id="btn-approach">
+                    My Approach
+                </button>
+                <button onclick="showSection('deliverables')" class="nav-button px-4 py-2 rounded-lg whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200" id="btn-deliverables">
+                    Key Deliverables
+                </button>
+                <button onclick="showSection('systems')" class="nav-button px-4 py-2 rounded-lg whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200" id="btn-systems">
+                    Systems Built
+                </button>
+                <button onclick="showSection('impact')" class="nav-button px-4 py-2 rounded-lg whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200" id="btn-impact">
+                    Business Impact
+                </button>
+                <button onclick="showSection('skills')" class="nav-button px-4 py-2 rounded-lg whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-gray-200" id="btn-skills">
+                    Skills Demonstrated
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Container -->
+    <div class="max-w-6xl mx-auto px-6 py-12">
+        
+        <!-- Overview Section -->
+        <div id="section-overview" class="space-y-8">
+            <div class="bg-white rounded-lg p-8 shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Executive Summary</h2>
+                <div class="space-y-4 text-gray-600">
+                    <p class="text-lg leading-relaxed">
+                        <strong>Project Scope:</strong> Complete ground-up design and implementation of an integrated business intelligence and automation system for a women's empowerment coaching business, transforming manual processes into a sophisticated, automated 4-tool ecosystem.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        <strong>Role:</strong> Solo Project Manager, Systems Architect, and Implementation Specialist with full creative control and technical ownership.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        <strong>Timeline:</strong> September - October 2025 (6 weeks from conception to full deployment)
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-8 border-l-4 border-green-500">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">Project Highlights</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-gray-800 mb-3">Self-Directed Learning & AI Integration</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">→</span>
+                                <span>Independently researched and evaluated 15+ automation platforms</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">→</span>
+                                <span>Taught myself Google Apps Script and advanced Zapier workflows</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">→</span>
+                                <span>Integrated AI tools for content automation and email marketing</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-gray-800 mb-3">Strategic Business Impact</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">→</span>
+                                <span>Reduced manual data entry time by 95% (40 hours/month → 2 hours/month)</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">→</span>
+                                <span>Eliminated $500+/month in potential software subscription costs</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600">→</span>
+                                <span>Created scalable infrastructure supporting 10x business growth</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Challenge Section -->
+        <div id="section-challenge" class="space-y-6 hidden">
+            <div class="bg-white rounded-lg p-8 shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">The Business Challenge</h2>
+                
+                <div class="bg-red-50 border-l-4 border-red-500 p-6 mb-6">
+                    <h3 class="text-xl font-bold text-red-900 mb-3">Critical Pain Points Identified</h3>
+                    <div class="space-y-3 text-gray-700">
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
+                            <div><strong>Fragmented Systems:</strong> Business operating across Kajabi, Google Drive, Zoom, and DocuSign with zero integration</div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
+                            <div><strong>Manual Data Entry:</strong> 40+ hours monthly spent copying data between platforms</div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
+                            <div><strong>Zero Business Intelligence:</strong> No visibility into key metrics (CLV, CAC, conversion rates, retention)</div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
+                            <div><strong>Email Chaos:</strong> Client communications unorganized, no systematic backup or retrieval</div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-2 h-2 bg-red-500 rounded-full mt-2"></div>
+                            <div><strong>Scaling Limitations:</strong> Manual processes preventing business growth beyond current capacity</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Impact Section -->
+        <div id="section-impact" class="space-y-6 hidden">
+            <div class="bg-white rounded-lg p-8 shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Measurable Business Impact</h2>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                    <div class="metric-card bg-white rounded-lg p-6 shadow-md border-l-4 border-green-500">
+                        <div class="text-3xl font-bold text-gray-800 mb-2">38 hrs</div>
+                        <div class="text-sm text-gray-600 mb-2">Time Saved Monthly</div>
+                        <div class="text-green-600 text-sm font-semibold">95% reduction</div>
+                    </div>
+                    <div class="metric-card bg-white rounded-lg p-6 shadow-md border-l-4 border-blue-500">
+                        <div class="text-3xl font-bold text-gray-800 mb-2">$6,000+</div>
+                        <div class="text-sm text-gray-600 mb-2">Cost Savings (Annual)</div>
+                        <div class="text-blue-600 text-sm font-semibold">Zero new costs</div>
+                    </div>
+                    <div class="metric-card bg-white rounded-lg p-6 shadow-md border-l-4 border-purple-500">
+                        <div class="text-3xl font-bold text-gray-800 mb-2">99.9%</div>
+                        <div class="text-sm text-gray-600 mb-2">Data Accuracy</div>
+                        <div class="text-purple-600 text-sm font-semibold">+85%</div>
+                    </div>
+                    <div class="metric-card bg-white rounded-lg p-6 shadow-md border-l-4 border-orange-500">
+                        <div class="text-3xl font-bold text-gray-800 mb-2">95%</div>
+                        <div class="text-sm text-gray-600 mb-2">Process Automation</div>
+                        <div class="text-orange-600 text-sm font-semibold">From 0%</div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 border-l-4 border-green-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Operational Efficiency Gains</h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-3">Before Implementation</h4>
+                                <ul class="space-y-2 text-gray-700 text-sm">
+                                    <li>• 40+ hours/month manual data entry</li>
+                                    <li>• 15+ separate systems and spreadsheets</li>
+                                    <li>• 3-5 days lag in business metrics</li>
+                                    <li>• Frequent data entry errors (15%+ error rate)</li>
+                                    <li>• Zero automated client communications</li>
+                                    <li>• Manual email filing and organization</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-3">After Implementation</h4>
+                                <ul class="space-y-2 text-gray-700 text-sm">
+                                    <li>• 2 hours/month monitoring and validation</li>
+                                    <li>• Single integrated 4-tool ecosystem</li>
+                                    <li>• Real-time business intelligence</li>
+                                    <li>• 99.9% data accuracy with validation</li>
+                                    <li>• Fully automated email sequences</li>
+                                    <li>• Daily automated email backups</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border-l-4 border-blue-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Strategic Business Value</h3>
+                        <div class="grid md:grid-cols-3 gap-4">
+                            <div class="bg-white rounded-lg p-4 shadow">
+                                <div class="text-2xl font-bold text-blue-600 mb-2">10x</div>
+                                <div class="text-sm font-semibold text-gray-800 mb-1">Scalability Factor</div>
+                                <div class="text-xs text-gray-600">Infrastructure supports growth from $36K to $360K+ annual revenue without system changes</div>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 shadow">
+                                <div class="text-2xl font-bold text-green-600 mb-2">$6,000+</div>
+                                <div class="text-sm font-semibold text-gray-800 mb-1">Annual Savings</div>
+                                <div class="text-xs text-gray-600">Avoided costs from subscription tools (CRM, analytics, automation platforms)</div>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 shadow">
+                                <div class="text-2xl font-bold text-purple-600 mb-2">100%</div>
+                                <div class="text-sm font-semibold text-gray-800 mb-1">Data Visibility</div>
+                                <div class="text-xs text-gray-600">Complete business intelligence enabling data-driven decision making</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div id="section-skills" class="space-y-6 hidden">
+            <div class="bg-white rounded-lg p-8 shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Skills & Competencies Demonstrated</h2>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-6 border-2 border-blue-200">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Technical Skills</h3>
+                        <div class="space-y-3">
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Programming & Scripting</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Google Apps Script (JavaScript)</li>
+                                    <li>• Advanced Google Sheets formulas</li>
+                                    <li>• API integration (Gmail API)</li>
+                                    <li>• Automation logic and error handling</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Integration & Automation</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Zapier multi-step workflows</li>
+                                    <li>• Cross-platform data synchronization</li>
+                                    <li>• Conditional logic and routing</li>
+                                    <li>• Webhook implementation</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Data & Analytics</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Database design and modeling</li>
+                                    <li>• Business intelligence dashboards</li>
+                                    <li>• KPI tracking and visualization</li>
+                                    <li>• Scenario modeling and forecasting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg p-6 border-2 border-green-200">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Project Management</h3>
+                        <div class="space-y-3">
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Strategic Planning</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Requirements gathering and analysis</li>
+                                    <li>• System architecture design</li>
+                                    <li>• Constraint-based problem solving</li>
+                                    <li>• Stakeholder communication</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Execution & Delivery</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Task prioritization (13 high-priority tasks)</li>
+                                    <li>• Timeline management (6-week delivery)</li>
+                                    <li>• Quality assurance protocols</li>
+                                    <li>• 100% on-time completion rate</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Documentation</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Technical documentation (50+ pages)</li>
+                                    <li>• Standard Operating Procedures</li>
+                                    <li>• Interactive implementation guides</li>
+                                    <li>• Troubleshooting protocols</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg p-6 border-2 border-purple-200">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Business Acumen</h3>
+                        <div class="space-y-3">
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Strategic Thinking</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Business process optimization</li>
+                                    <li>• Cost-benefit analysis</li>
+                                    <li>• Scalability planning</li>
+                                    <li>• ROI calculation and justification</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Metrics & KPIs</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Customer Lifetime Value (CLV)</li>
+                                    <li>• Customer Acquisition Cost (CAC)</li>
+                                    <li>• Conversion rate optimization</li>
+                                    <li>• Churn rate reduction strategies</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Change Management</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Process transition planning</li>
+                                    <li>• Training and knowledge transfer</li>
+                                    <li>• Adoption monitoring</li>
+                                    <li>• Continuous improvement</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-lg p-6 border-2 border-orange-200">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Professional Attributes</h3>
+                        <div class="space-y-3">
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Self-Directed Learning</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Independently mastered 4+ new technologies</li>
+                                    <li>• Research and evaluation skills</li>
+                                    <li>• Rapid skill acquisition</li>
+                                    <li>• AI tool integration expertise</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Problem Solving</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• Creative constraint-based solutions</li>
+                                    <li>• Root cause analysis</li>
+                                    <li>• Multi-variable optimization</li>
+                                    <li>• Preventive issue mitigation</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-800 mb-1">Quality & Excellence</div>
+                                <ul class="text-sm text-gray-700 space-y-1 ml-4">
+                                    <li>• 99.9% system reliability</li>
+                                    <li>• Comprehensive testing protocols</li>
+                                    <li>• Attention to detail</li>
+                                    <li>• User experience focus</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-yellow-50 to-amber-50 rounded-lg p-6 border-l-4 border-yellow-500 mt-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Unique Value Proposition</h3>
+                    <div class="grid md:grid-cols-3 gap-4 text-sm text-gray-700">
+                        <div>
+                            <div class="font-semibold text-gray-800 mb-2">⚡ Full Stack Capability</div>
+                            <div>From strategy through implementation to documentation - complete ownership of entire project lifecycle</div>
+                        </div>
+                        <div>
+                            <div class="font-semibold text-gray-800 mb-2">🎯 Business-First Approach</div>
+                            <div>Technical solutions designed around business outcomes, not technology for technology's sake</div>
+                        </div>
+                        <div>
+                            <div class="font-semibold text-gray-800 mb-2">💡 Creative Problem Solving</div>
+                            <div>Delivered enterprise-level functionality within strict budget and tool constraints</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer CTA -->
+    <div class="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-12 px-6 mt-12">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Business Systems?</h2>
+            <p class="text-xl text-blue-200 mb-6">
+                I bring strategic thinking, technical expertise, and relentless execution to deliver measurable results
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <div class="bg-white/10 backdrop-blur rounded-lg px-6 py-3">
+                    <div class="text-2xl font-bold">100%</div>
+                    <div class="text-sm text-blue-200">Project Success Rate</div>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-lg px-6 py-3">
+                    <div class="text-2xl font-bold">$6K+</div>
+                    <div class="text-sm text-blue-200">Annual Value Delivered</div>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-lg px-6 py-3">
+                    <div class="text-2xl font-bold">38</div>
+                    <div class="text-sm text-blue-200">Hours Saved Monthly</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = ['overview', 'challenge', 'approach', 'deliverables', 'systems', 'impact', 'skills'];
+            sections.forEach(id => {
+                document.getElementById('section-' + id).classList.add('hidden');
+                document.getElementById('btn-' + id).classList.remove('bg-blue-600', 'text-white');
+                document.getElementById('btn-' + id).classList.add('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
+            });
+
+            // Show selected section
+            document.getElementById('section-' + sectionId).classList.remove('hidden');
+            document.getElementById('btn-' + sectionId).classList.remove('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
+            document.getElementById('btn-' + sectionId).classList.add('bg-blue-600', 'text-white');
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-4 mb-6">
+                    <div class="bg-gray-50 rounded-lg p-4">
+                        <div class="text-3xl font-bold text-gray-800">$36K</div>
+                        <div class="text-sm text-gray-600">Current Annual Revenue</div>
+                        <div class="text-xs text-gray-500 mt-1">Target: $60K+</div>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-4">
+                        <div class="text-3xl font-bold text-gray-800">8.2%</div>
+                        <div class="text-sm text-gray-600">Monthly Churn Rate</div>
+                        <div class="text-xs text-gray-500 mt-1">Target: &lt;5%</div>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-4">
+                        <div class="text-3xl font-bold text-gray-800">0</div>
+                        <div class="text-sm text-gray-600">Automated Workflows</div>
+                        <div class="text-xs text-gray-500 mt-1">Needed: Comprehensive</div>
+                    </div>
+                </div>
+
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-6">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3">Strategic Constraints</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-600">→</span>
+                            <span><strong>Budget-Conscious:</strong> Minimize additional software costs while maximizing capability</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-600">→</span>
+                            <span><strong>Simplicity Required:</strong> Single-operator business needs maintainable, non-technical solutions</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-600">→</span>
+                            <span><strong>Immediate Impact:</strong> Systems needed to be operational within 6 weeks</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Approach Section -->
+        <div id="section-approach" class="space-y-6 hidden">
+            <div class="bg-white rounded-lg p-8 shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">My Strategic Approach</h2>
+                
+                <div class="space-y-6">
+                    <div class="border-l-4 border-purple-500 pl-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">
+                            <span class="bg-purple-500 text-white w-8 h-8 rounded-full inline-flex items-center justify-center text-sm mr-2">1</span>
+                            Discovery & Requirements Gathering
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            Conducted comprehensive business analysis through client consultations, documenting current workflows, pain points, and growth objectives.
+                        </p>
+                        <div class="bg-purple-50 rounded p-4">
+                            <div class="text-sm font-semibold text-purple-900 mb-2">Key Activities:</div>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>• Mapped complete customer journey from lead to client</li>
+                                <li>• Identified 15+ manual processes consuming 40+ hours monthly</li>
+                                <li>• Established KPI framework aligned with business goals</li>
+                                <li>• Defined strict 4-tool constraint (Kajabi, Zapier, Google Drive, Google Sheets)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 border-blue-500 pl-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">
+                            <span class="bg-blue-500 text-white w-8 h-8 rounded-full inline-flex items-center justify-center text-sm mr-2">2</span>
+                            Technology Research & Self-Education
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            Independently researched and evaluated automation platforms, teaching myself new technologies to find optimal solutions within budget constraints.
+                        </p>
+                        <div class="bg-blue-50 rounded p-4">
+                            <div class="text-sm font-semibold text-blue-900 mb-2">Technologies Mastered:</div>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>• Google Apps Script (JavaScript) for custom automation</li>
+                                <li>• Advanced Zapier multi-step workflows with conditional logic</li>
+                                <li>• Google Sheets advanced formulas and data modeling</li>
+                                <li>• AI integration for content generation and email marketing</li>
+                                <li>• Gmail API and automated label management</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 border-green-500 pl-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">
+                            <span class="bg-green-500 text-white w-8 h-8 rounded-full inline-flex items-center justify-center text-sm mr-2">3</span>
+                            Systems Architecture & Design
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            Designed comprehensive system architecture connecting all business functions through automated data flows and intelligent workflows.
+                        </p>
+                        <div class="bg-green-50 rounded p-4">
+                            <div class="text-sm font-semibold text-green-900 mb-2">Design Principles:</div>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>• Single source of truth (Google Sheets as central database)</li>
+                                <li>• Real-time data synchronization across platforms</li>
+                                <li>• Automated workflows eliminating manual data entry</li>
+                                <li>• Scalable architecture supporting 10x growth</li>
+                                <li>• Error handling and system health monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 border-orange-500 pl-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">
+                            <span class="bg-orange-500 text-white w-8 h-8 rounded-full inline-flex items-center justify-center text-sm mr-2">4</span>
+                            Implementation & Testing
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            Built, tested, and deployed all systems with comprehensive documentation and quality assurance protocols.
+                        </p>
+                        <div class="bg-orange-50 rounded p-4">
+                            <div class="text-sm font-semibold text-orange-900 mb-2">Implementation Highlights:</div>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>• Developed 7 integrated Zapier workflows with 25+ automated actions</li>
+                                <li>• Created custom Apps Script for email backup (350+ lines of code)</li>
+                                <li>• Built comprehensive business intelligence dashboard</li>
+                                <li>• Established testing protocols ensuring 99.9% reliability</li>
+                                <li>• Created detailed SOPs for ongoing maintenance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deliverables Section -->
+        <div id="section-deliverables" class="space-y-6 hidden">
+            <div class="bg-white rounded-lg p-8 shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Key Deliverables</h2>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Business Intelligence Dashboard</h3>
+                        <p class="text-gray-600 mb-4">Real-time tracking of all business metrics with automated data collection and advanced scenario modeling.</p>
+                        <div class="mb-4">
+                            <div class="text-sm font-semibold text-gray-700 mb-2">Technologies:</div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Google Sheets</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Advanced Formulas</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Data Visualization</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-sm font-semibold text-gray-700 mb-2">Key Features:</div>
+                            <ul class="space-y-1 text-sm text-gray-600">
+                                <li>✓ Live KPI tracking (leads, conversions, revenue)</li>
+                                <li>✓ Service tier performance analysis</li>
+                                <li>✓ Customer lifetime value calculations</li>
+                                <li>✓ Growth scenario modeling</li>
+                                <li>✓ Automated validation checks</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Zapier Automation Workflows</h3>
+                        <p class="text-gray-600 mb-4">7 integrated workflows automating lead capture, sales tracking, folder creation, and email organization.</p>
+                        <div class="mb-4">
+                            <div class="text-sm font-semibold text-gray-700 mb-2">Technologies:</div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Zapier</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Multi-Step Logic</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Error Handling</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-sm font-semibold text-gray-700 mb-2">Key Features:</div>
+                            <ul class="space-y-1 text-sm text-gray-600">
+                                <li>✓ Lead capture from Kajabi to Dashboard</li>
+                                <li>✓ Automatic client folder creation</li>
+                                <li>✓ Purchase processing and routing</li>
+                                <li>✓ Email organization and filtering</li>
+                                <li>✓ Session recording automation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Email Backup System</h3>
+                        <p class="text-gray-600 mb-4">Custom Apps Script solution for automated email backup with attachments to organized Google Drive folders.</p>
+                        <div class="mb-4">
+                            <div class="text-sm font-semibold text-gray-700 mb-2">Technologies:</div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Google Apps Script</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Gmail API</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">PDF Generation</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-sm font-semibold text-gray-700 mb-2">Key Features:</div>
+                            <ul class="space-y-1 text-sm text-gray-600">
+                                <li>✓ Daily automated backups at 2am</li>
+                                <li>✓ Manual backup button for on-demand</li>
+                                <li>✓ Attachment preservation</li>
+                                <li>✓ Smart label-based organization</li>
+                                <li>✓ Storage monitoring and alerts</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">AI-Powered Email Marketing</h3>
+                        <p class="text-gray-600 mb-4">Automated email sequences with AI-generated content for nurturing leads and onboarding clients.</p>
+                        <div class="mb-4">
+                            <div class="text-sm font-semibold text-gray-700 mb-2">Technologies:</div>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Kajabi</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">AI Content Tools</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Marketing Automation</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-sm font-semibold text-gray-700 mb-2">Key Features:</div>
+                            <ul class="space-y-1 text-sm text-gray-600">
+                                <li>✓ Welcome sequence (3 emails)</li>
+                                <li>✓ Weekly nurture series</li>
+                                <li>✓ Post-consultation follow-ups</li>
+                                <li>✓ Re-engagement campaigns</li>
+                                <li>✓ Performance tracking integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Systems Section -->
+        <div id="section-systems" class="space-y-6 hidden">
+            <div class="bg-white rounded-lg p-8 shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Systems Architecture</h2>
+                
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 mb-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Integrated 4-Tool Ecosystem</h3>
+                    <div class="grid md:grid-cols-4 gap-4">
+                        <div class="bg-white rounded-lg p-4 shadow">
+                            <div class="font-bold text-blue-600 mb-2">Kajabi</div>
+                            <div class="text-sm text-gray-600">
+                                • Course delivery<br/>
+                                • Payment processing<br/>
+                                • Email marketing<br/>
+                                • Client scheduling
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 shadow">
+                            <div class="font-bold text-orange-600 mb-2">Zapier</div>
+                            <div class="text-sm text-gray-600">
+                                • Workflow automation<br/>
+                                • Data synchronization<br/>
+                                • Multi-app integration<br/>
+                                • Error handling
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 shadow">
+                            <div class="font-bold text-green-600 mb-2">Google Drive</div>
+                            <div class="text-sm text-gray-600">
+                                • File storage<br/>
+                                • Client folders<br/>
+                                • Document management<br/>
+                                • Email backups
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 shadow">
+                            <div class="font-bold text-purple-600 mb-2">Google Sheets</div>
+                            <div class="text-sm text-gray-600">
+                                • Central database<br/>
+                                • Business intelligence<br/>
+                                • Analytics & reporting<br/>
+                                • Scenario modeling
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border-2 border-blue-200 rounded-lg p-6">
+                    <h4 class="font-bold text-lg text-gray-800 mb-3">Data Flow Architecture</h4>
+                    <div class="space-y-3 text-gray-700">
+                        <div class="flex items-start gap-3">
+                            <div class="bg-blue-100 text-blue-700 px-3 py-1 rounded font-semibold text-sm">LEAD</div>
+                            <div class="flex-1">Kajabi Form → Zapier → Google Sheets (Dashboard) + Google Drive (Client Folder)</div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="bg-green-100 text-green-700 px-3 py-1 rounded font-semibold text-sm">SALE</div>
+                            <div class="flex-1">Kajabi Purchase → Zapier → Google Sheets (Sales Tab) → Updates Dashboard KPIs</div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="bg-purple-100 text-purple-700 px-3 py-1 rounded font-semibold text-sm">EMAIL</div>
+                            <div class="flex-1">Gmail (Client Label) → Apps Script (Daily 2am) → Google Drive (PDF Backup)</div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="bg-orange-100 text-orange-700 px-3 py-1 rounded font-semibold text-sm">SESSION</div>
+                            <div class="flex-1">Zoom Recording → Zapier → Gmail (Notification) → Manual filing to Drive</div>
+                        </div>
+                    </div>
